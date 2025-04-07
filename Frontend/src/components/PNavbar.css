@@ -1,0 +1,60 @@
+.nav {
+  height: 8vh;
+}
+.unique-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #e3e3e3f8; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  /* padding: 10px; */
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: lightblue;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.avatar img {
+  width: 47px;
+  height: 45px;
+  border-radius: 50%;
+  /* margin-left: 10px;  */
+  /* border: 1px solid black; */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.speak button {
+  width: 40px;
+  height: 40px;
+  transition: 1.5s;
+  border-radius: 100%;
+  background-color: white;
+}
+button:hover {
+  transition: 1.5s;
+  background-color: #ff983e;
+}

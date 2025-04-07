@@ -1,0 +1,11 @@
+torch
+flask
+roboflow
+flask-cors
+pillow
+numpy
+opencv-python
+nltk
+scikit-learn
+huggingface_hub 
+google-generativeai
