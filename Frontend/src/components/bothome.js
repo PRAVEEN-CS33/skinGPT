@@ -2,7 +2,7 @@ import './bothome.css';
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMicrophone, faPaperPlane, faVolumeHigh, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
-import { useSpeechSynthesis } from "react-speech-kit";
+// import { useSpeechSynthesis } from "react-speech-kit";
 import SpeechRecognition from "react-speech-recognition";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
@@ -20,7 +20,7 @@ const BHome = () => {
   const [showPreview, setShowPreview] = useState(false);
   const [voiceAssist, setVoiceAssist] = useState(true);
 
-  const { speak } = useSpeechSynthesis();
+  // const { speak } = useSpeechSynthesis();
   const fileInputRef = useRef(null);
   const chatContainerRef = useRef(null); // Ref for chat container
 
