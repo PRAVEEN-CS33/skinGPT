@@ -1,7 +1,7 @@
 import './bothome.css';
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMicrophone, faPaperPlane, faVolumeHigh, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
+import { faMicrophone, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 // import { useSpeechSynthesis } from "react-speech-kit";
 import SpeechRecognition from "react-speech-recognition";
 import { useEffect, useState, useRef } from "react";
